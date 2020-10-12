@@ -1,0 +1,13 @@
+[run]
+branch=1
+source=
+  imgmanip
+concurrency=thread
+omit=
+  tests/*
+  setup.py
+
+[report]
+include=
+    imgmanip/*
+
